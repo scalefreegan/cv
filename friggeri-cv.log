@@ -1,0 +1,17 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xetex 2015.5.24)  18 APR 2016 09:41
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**friggeri-cv.cls
+(./friggeri-cv.cls
+./friggeri-cv.cls:5: Undefined control sequence.
+l.5 \ProvidesClass
+                  {friggeri-cv}[2012/04/30 CV class]
+? 
+./friggeri-cv.cls:5: Emergency stop.
+l.5 \ProvidesClass
+                  {friggeri-cv}[2012/04/30 CV class]
+End of file on the terminal!
+
+No pages of output.
