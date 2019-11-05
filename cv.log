@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 NOV 2017 08:35
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  26 APR 2019 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -46,7 +46,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2015/03/14 v2.4c Font selection for XeLaTeX and LuaLaTeX
 
@@ -1116,68 +1119,72 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count310
 \@quotereset=\count311
 
+
+LaTeX Warning: Unused global option(s):
+    [usenames].
+
 (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 19.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 20.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 \g__fontspec_family_latinmodern-math.otf_int=\count312
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 19.
+(Font)              `operators' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/latinmodern-math.otf(0)/m/n on inpu
-t line 19.
+t line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 19.
+(Font)              `operators' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/latinmodern-math.otf(0)/bx/n on in
-put line 19.
+put line 20.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 19.
+(Font)              `symbols' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU1/latinmodern-math.otf(1)/m/n on inp
-ut line 19.
+ut line 20.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 19.
+(Font)              `symbols' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU1/latinmodern-math.otf(1)/bx/n on in
-put line 19.
+put line 20.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-9.
+(Font)              `largesymbols' in the math version `normal' on input line 2
+0.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU1/latinmodern-math.otf(2)/m/n on inp
-ut line 19.
+ut line 20.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 19.
+(Font)              `largesymbols' in the math version `bold' on input line 20.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU1/latinmodern-math.otf(2)/bx/n on in
-put line 19.
+put line 20.
 
 ABD: EveryShipout initializing macros
 Package biblatex Info: XeTeX detected.
@@ -1189,8 +1196,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
  (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1227,7 +1234,7 @@ Package biblatex Info: Reference segment=0 on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 20.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1236,158 +1243,134 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write5
 \openout5 = `cv.out'.
 
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 26.
+(Font)              scaled to size 14.00021pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.00006pt on input line 26.
+(Font)              scaled to size 9.8001pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 26.
+(Font)              scaled to size 7.0001pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 26.
+(Font)              scaled to size 13.99979pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.99986pt on input line 26.
+(Font)              scaled to size 9.7998pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 26.
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
+(Font)              scaled to size 6.9999pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.00015pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.00006pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.99985pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.99986pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 27.
+File: img/interests.png Graphic file (type QTm)
+ <use  "img/interests.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--126
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--146
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--161
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 163--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--174
-
- []
-
-File: img/interests.png Graphic file (type QTm)
-<use  "img/interests.png" >
-File: img/5stars.png Graphic file (type QTm)
- <use  "img/5stars.png" >
-File: img/5stars.png Graphic file (type QTm)
- <use  "img/5stars.png" >
-Overfull \hbox (3.27596pt too wide) in paragraph at lines 188--188
- [][]\EU1/texgyreheros-bold.otf(0)/m/n/10 Sequencing[][]
- []
-
-File: img/4stars.png Graphic file (type QTm)
-<use  "img/4stars.png" >
-File: img/2stars.png Graphic file (type QTm)
- <use  "img/2stars.png" >
-Overfull \hbox (1.91595pt too wide) in paragraph at lines 190--190
- [][]\EU1/texgyreheros-bold.otf(0)/m/n/10 Microscopy[][]
- []
-
-File: img/5stars.png Graphic file (type QTm)
-<use  "img/5stars.png" >
-File: img/5stars.png Graphic file (type QTm)
- <use  "img/5stars.png" >
-File: img/4stars.png Graphic file (type QTm)
- <use  "img/4stars.png" >
-File: img/4stars.png Graphic file (type QTm)
-
-<use  "img/4stars.png" >
-File: img/3stars.png Graphic file (type QTm)
- <use  "img/3stars.png" >
-File: img/3stars.png Graphic file (type QTm)
- <use  "img/3stars.png" >
-File: img/1stars.png Graphic file (type QTm)
-
-<use  "img/1stars.png" >
-File: img/wordle_small.png Graphic file (type QTm)
- <use  "img/wordle_small.png" >
-Overfull \hbox (7.17892pt too wide) in paragraph at lines 202--202
- [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--240
-
- []
-
-Missing character: There is no ‎ in font [texgyreheros-regular]/OT:script=latn;
-language=DFLT;mapping=tex-text;mapping=tex-text;mapping=tex-text;color=4D4D4DFF
- ;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--259
+Underfull \hbox (badness 10000) in paragraph at lines 172--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--273
+Underfull \hbox (badness 10000) in paragraph at lines 237--280
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 275--307
+Underfull \hbox (badness 10000) in paragraph at lines 282--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--362
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 363.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40511 strings out of 493706
- 767357 string characters out of 6145769
- 1193651 words of memory out of 5000000
- 43395 multiletter control sequences out of 15000+600000
- 5375 words of font info for 58 fonts, out of 8000000 for 9000
+ 40601 strings out of 493706
+ 769558 string characters out of 6145769
+ 1197873 words of memory out of 5000000
+ 43476 multiletter control sequences out of 15000+600000
+ 6676 words of font info for 69 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 73i,9n,67p,10444b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,67p,10441b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (3 pages).

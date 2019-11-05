@@ -1,9 +1,9 @@
 %!TEX TS-program = xelatex
-\documentclass[]{friggeri-cv}
+\documentclass[usenames,dvipsnames]{friggeri-cv}
+\usepackage{xcolor}
 \usepackage{afterpage}
 \usepackage{hyperref}
-\usepackage{color}
-\usepackage{xcolor}
+
 \hypersetup{
     pdftitle={},
     pdfauthor={},
@@ -15,10 +15,11 @@
 \addbibresource{bibliography.bib}
 \RequirePackage{xcolor}
 \definecolor{pblue}{HTML}{0395DE}
+\definecolor{carnelian}{rgb}{0.7, 0.11, 0.11}
 
 \begin{document}
 \header{Aaron}{Brooks/}{PhD}
-      {\hspace{.2\textwidth} Genetics of complex adaptive biological systems}
+      {\hspace{.45\textwidth} Genetics of complex adaptive \textcolor{carnelian}{(\underline{synthetic})} biological systems}
 
 % Fake text to add separator
 \fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
@@ -27,6 +28,7 @@
 
 % In the aside, each new line forces a line break
 \begin{aside}
+ ~
   \section{Currently}
     \href{http://www.embl.de/research/units/genome_biology/steinmetz/}{Postdoc @ EMBL}
     ~
@@ -48,7 +50,9 @@
   \section{Twitter}
     \href{https://twitter.com/scalefreegan}{@scalefreegan}
     ~
-    ~
+   \section{Research Interests}
+     ~
+   \includegraphics[scale=0.6]{img/interests.png}
     ~
     ~
     ~
@@ -70,6 +74,14 @@
 \end{aside}
 
 \section{Publications}
+
+\href{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000182}{\noindent
+SK Strauss, D Schirman, G Jona, \textbf{AN Brooks}, ..., Y Pilpel. (2019)
+\textbf{Evolthon: A Community Endeavor to Evolve Lab Evolution.}
+\emph{PLoS Biol} 17(3): e3000182
+}
+\\
+\\
 \href{http://journal.frontiersin.org/article/10.3389/fmicb.2015.00409/abstract}{\noindent
 \textbf{AN Brooks}, WF Mueller, LM Steinmetz (2016)
 \textbf{SYGNALing a Red Light for Glioblastoma.}
@@ -92,7 +104,7 @@ CL Plaisier, FY Lo, J Ashworth, \textbf{AN Brooks}, KD Beer, A Kaur, M Pan, DJ R
 \\
 \\
 \href{http://journal.frontiersin.org/article/10.3389/fmicb.2014.00379/abstract}{\noindent
-H Westerhoff*, \textbf{AN Brooks*}, E Simeonidis*, R García-Contreras*, F Boogerd, F He, VJ Jackson, V Goncharuk, A Kolodkin. (2014)
+H Westerhoff*, \textbf{AN Brooks*}, E Simeonidis*, R Garcia-Contreras*, F Boogerd, F He, VJ Jackson, V Goncharuk, A Kolodkin. (2014)
 \textbf{Macromolecular networks and intelligence in microorganisms.}
 \emph{Front. Microbiol.} 5:379.
 }
@@ -120,8 +132,9 @@ $^{\ast}$ Denotes equal contribution
     {2015 - now}
     {Postdoc}
     {EMBL | Genome Biology Unit}
-    {\emph{Project: ``Molecular consequences of large-scale genome variation in synthetic yeast.''}\\
-    \emph{Advisors: Prof. Lars Steinmetz, Associate Head of Unit and Senior Scientist at EMBL, Dr. Oliver Stegle, Group leader at EMBL-EBI }\\}
+    {\emph{Project: ``Molecular consequences of large-scale genetic variation in synthetic yeast.''}\\
+    \emph{Advisor: Prof. Lars Steinmetz, Professor of Genetics, Stanford University, Co-Director, Stanford Genome Technology Center, Group Leader and Senior Scientist, EMBL, Germany}\\
+    \textbf{Key skills developed}: Long-read DNA/RNA sequencing, pipeline development, scalable computing, containerized computing, grantsmanship (1.4M received), project leadership and management}
 \end{entrylist}
 
 \section{Education}
@@ -131,7 +144,8 @@ $^{\ast}$ Denotes equal contribution
     {PhD Molecular and Cellular Biology}
     {University of Washington}
     {\emph{Dissertation: ``Data-driven inference of dynamic transcriptional regulatory mechanisms in prokaryotes: a systems perspective.''}\\
-    \emph{Advisor: Prof. Nitin Baliga, SVP and Director, Institute for Systems Biology}\\}
+    \emph{Advisor: Prof. Nitin Baliga, SVP and Director, Institute for Systems Biology}\\
+    \textbf{Key skills developed}: Machine learning (ensemble learning), full-stack software development, scientific writing, scientific collaboration}
   \entry
     {2002 - 2007}
     {BS Biochemistry \& BA Political Science}
@@ -141,9 +155,10 @@ $^{\ast}$ Denotes equal contribution
     \emph{Advisor: Prof. David G. Bear}\\
     \textit{Summa Cum Laude}\\
     \textit{General University Honors}\\
-    \textit{Minor: Philosophy}}
+    \textit{Minor: Philosophy}\\
+    \textbf{Key skills developed}: Basic laboratory skills}
 \end{entrylist}
-\newpage
+
 \section{In the news}
 \begin{entrylist}
   \entry
@@ -165,6 +180,16 @@ $^{\ast}$ Denotes equal contribution
     {Office of Science Graduate Fellowship}
     {Department of Energy}
     {}
+     \entry
+    {2007-2008}
+    {Postbaccalaureate Research Education Program (PREP)}
+    {NIH}
+    {}
+     \entry
+    {2006-2007}
+    {Initiative for Maximizing Student Development (IMSD)}
+    {NIH}
+    {}
    \entry
     {2006}
     {Goldwater Scholarship}
@@ -174,42 +199,57 @@ $^{\ast}$ Denotes equal contribution
 
 % In the aside, each new line forces a line break
 \begin{aside}
-~
-~
-~
-~
-~
-\section{Research Interests}
-     ~
-    \includegraphics[scale=0.6]{img/interests.png}
-    ~
+ ~
+ ~
+ ~
 \section{Wetlab}
-    \textbf{MolBio}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{Sequencing}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{Bioreactor}\includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{Microscopy}\includegraphics[scale=0.40]{img/2stars.png}
     ~
-  \section{Programming}
-    \textbf{R}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{Python}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{Bash}\includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{HTML/JS}\includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{SQL}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{Malab}\includegraphics[scale=0.40]{img/3stars.png}
-     \textbf{C++}\includegraphics[scale=0.40]{img/1stars.png}
+    \textbf{DNA/RNA Sequencing}
     ~
-  \section{Research Summary}
-    \includegraphics[scale=0.28]{img/wordle_small.png}
+    \textbf{Long read sequencing (Nanopore)}
+    ~
+    \textbf{Microbial culture}
+    ~
+  \section{Computational}
+   ~
+    \textbf{Common languages}
+    (Python, R, Bash, HTML/JS)
+    ~
+    \textbf{Pipeline development}
+    (Snakemake)
+    ~
+    \textbf{Parallel environments}
+     (SLURM, SGE)
+    ~
+    \textbf{Containerization}
+    (Singularity, Docker)
+    ~
+    \textbf{Database management}
+     (SQL and NoSQL)
+    ~
+    \textbf{Web frameworks }
+    (Django, Shiny)
+    ~
     ~
 \end{aside}
 
 \section{Teaching \& Outreach}
 \begin{entrylist}
     \entry
+    {2019}
+    {\href{https://www.embl.de/training/events/2019/NAN19-01/programme/index.html}{Advanced Training with Oxford Nanopore Technologies}}
+    {EMBL, Heidelberg}
+    {\emph{Speaker}}
+     \entry
+    {2018}
+    {\href{https://www.embl.de/training/events/2018/NAN18-01/}{Using Nanopore Technology for Real Time, Direct, Scalable DNA/RNA Sequencing}}
+    {EMBL, Heidelberg}
+    {\emph{Speaker}}
+    \entry
     {2015}
-    {\href{http://scalefreegan.github.io/Teaching/DataIntegration/}{EMBL: Data Mining and Integration with Networks}}
-    {Heidelberg, Germany}
-    {\emph{Co-organizer, lecturer}}
+    {\href{http://scalefreegan.github.io/Teaching/DataIntegration/}{Data Mining and Integration with Networks}}
+    {EMBL, Heidelberg}
+    {\emph{Co-organizer, Speaker}}
   \entry
     {2014}
     {USA Science and Engineering Festival}
@@ -219,7 +259,7 @@ $^{\ast}$ Denotes equal contribution
     {2011}
     {Introduction to Systems Biology}
     {Institute for Systems Biology}
-    {\emph{Co-organizer, lecturer}}
+    {\emph{Co-organizer, Speaker}}
     \entry
     {2009-2015}
     {Science Communication Fellow}
@@ -241,20 +281,35 @@ $^{\ast}$ Denotes equal contribution
 \section{Students mentored}
 \begin{entrylist}
   \entry
-    {08-12/2012}
+    {2019}
+    {Ramya Vijayram}
+    {MS student at IIT Madras, India}
+    {}
+   \entry
+    {2016-2017}
+    {Marc Rubsam}
+    {MS student at Heidelberg University, Germany}
+    {}
+  \entry
+    {2016}
+    {Felix Frauhammer}
+    {PhD student at Heidelberg University, Germany}
+    {}
+  \entry
+    {2012}
     {Robin Green}
     {PhD student at University of Washington, WA}
     {Currently at Fred Hutchinson Cancer Research Center}
   \entry
-    {05-08/2011}
+    {2011}
     {Darach Miller}
     {Undergraduate at UC Davis, CA}
     {Currently PhD student at NYU}
   \entry
-    {05-08/2010}
+    {2010}
     {Alexis Valauri-Orton}
     {Undergraduate at Davidson College, NC}
-    {Currently ‎Ocean Acidification Intern at Ocean Conservancy}
+    {Currently Ocean Acidification Intern at Ocean Conservancy}
 \end{entrylist}
 
 \section{Other}
@@ -270,33 +325,33 @@ $^{\ast}$ Denotes equal contribution
     {Fred Hutchinson Cancer Research Center}
     {Co-organizer, \emph{Bioplasticity: flexibility within and beyond the code}}
 \end{entrylist}
-\newpage
+
 \section{References}
 \begin{entrylist}
 \entry
     {}
     {Lars Steinmetz, PhD}
     {EMBL / Stanford}
-    {+49 6221 387389\\
-    \href{mailto:larsms@embl.de}{\textbf{larsms}@embl.de}}
+    {+49 6221 387-8389\\
+    \href{mailto:larsms@embl.de}{\textbf{larsms@}embl.de}}
     \entry
     {}
     {Nitin Baliga, PhD}
     {Institute for Systems Biology}
-    {+1 206 7321266\\
+    {+1 206 732-1266\\
     \href{mailto:nbaliga@systemsbiology.org}{\textbf{nbaliga@}systemsbiology.org}}
      \entry
     {}
-    {Oliver Stegle, PhD}
-    {EMBL-EBI}
-    {+44 1223 494101\\
-    \href{mailto:stegle@ebi.ac.uk}{\textbf{stegle@}ebi.ac.uk}}
-     \entry
-     {}
     {Patrick Cai, PhD}
     {University of Manchester}
     {+44 161 3064214\\
     \href{mailto:yizhi.ca@manchester.ac.uk}{\textbf{yizhi.ca@}manchester.ac.uk}}
+     \entry
+    {}
+    {Vladimir Benes, PhD}
+    {EMBL, Head of Genomics Core Facility}
+    {+49 6221 387-8486\\
+    \href{mailto:benes@embl.de}{\textbf{benes@}embl.de}}
      \entry
     {}
     {Elhanan Borenstein, PhD}
